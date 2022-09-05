@@ -59,14 +59,17 @@ nav > ul {
     flex-grow: 1 1 auto;
 }
 
-.hero-main-text > button {
+button {
     background-color: #3882f6;
     color: white;
     padding: 0.3rem 1.2rem;
     border: none;
     border-radius: 0.3rem;
-    margin-top: 0.3rem;
     font-weight: 800;
+}
+
+.hero-main-text > button {
+    margin-top: 0.3rem;
 }
 
 .section-2 {
@@ -126,3 +129,34 @@ nav > ul {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.section-4 {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-4 > .subsection {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 4rem 6rem;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.call-to-action-button {
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    text-align: center;
+    align-self: center;
+} 
+
+.call-to-action > h3 {
+    font-size: 1.33rem;
+    margin-bottom: 0.8rem;
+}
+
+
