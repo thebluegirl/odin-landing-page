@@ -102,3 +102,27 @@ nav > ul {
     height: 140px;
     align-self: center;
 }
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 2rem;
+    padding: 0rem 10rem;
+}
+
+.section-3 > .quote {
+    font-size: inherit;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.section-3 > .source {
+    font-weight: bold;
+    align-self: flex-end;
+}
