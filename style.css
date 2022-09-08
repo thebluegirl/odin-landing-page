@@ -20,9 +20,8 @@ nav > ul {
     height: 100vh;
     background-color: #1f2937;
     color: #e5e7eb;
-    /* padding: 0rem 8rem 4rem 8rem; */ /* This is to position content in the center, but it results in a spillover when the page is sized down*/
     margin: 0rem auto;
-    padding: 0rem 4rem;
+    padding: 0rem 6rem;
 }
 
 .header {
@@ -159,4 +158,11 @@ button {
     margin-bottom: 0.8rem;
 }
 
-
+.footer{
+    background-color: #1f2937;
+    color: white;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
